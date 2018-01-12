@@ -1,0 +1,270 @@
+EESchema Schematic File Version 2
+LIBS:LoraGear-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ATSAMD21G18A-AFT
+LIBS:RFM96
+LIBS:MCP73831T-2DCI_OT
+LIBS:ap2112k-3
+LIBS:LSM9DS0TR
+LIBS:MOUDLE-GPS-NEO-6M_24P-16X12.2MM_
+LIBS:24AA32A-I_MS
+LIBS:U.FL-R-SMT-1_10_
+LIBS:LoraGear-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LSM9DS0TR U201
+U 1 1 5A4108ED
+P 5100 3300
+F 0 "U201" H 4398 4342 50  0000 L BNN
+F 1 "LSM9DS0TR" H 4399 2141 50  0000 L BNN
+F 2 "LSM9DS0:LGA-24" H 5100 3300 50  0001 L BNN
+F 3 "5.46 USD" H 5100 3300 50  0001 L BNN
+F 4 "STMicroelectronics" H 5100 3300 50  0001 L BNN "Field4"
+F 5 "LSM9DS0 Series 3.6 V 3D Accelerometer 3D Gyroscope 3D Magnetometer - LGA-24" H 5100 3300 50  0001 L BNN "Field5"
+F 6 "LSM9DS0TR" H 5100 3300 50  0001 L BNN "Field6"
+F 7 "Bad" H 5100 3300 50  0001 L BNN "Field7"
+F 8 "LGA-24 STMicroelectronics" H 5100 3300 50  0001 L BNN "Field8"
+	1    5100 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 6650 2200 2    60   Input ~ 0
+VDD
+Wire Wire Line
+	6650 2200 6400 2200
+Wire Wire Line
+	6400 2200 6400 2900
+Wire Wire Line
+	6400 2700 6000 2700
+Wire Wire Line
+	6000 2600 6400 2600
+Wire Wire Line
+	6400 2600 6400 2650
+Connection ~ 6400 2650
+Wire Wire Line
+	6000 2400 6400 2400
+Connection ~ 6400 2400
+Wire Wire Line
+	6000 2500 6400 2500
+Connection ~ 6400 2500
+$Comp
+L GNDD #PWR038
+U 1 1 5A410971
+P 6250 4300
+F 0 "#PWR038" H 6250 4050 50  0001 C CNN
+F 1 "GNDD" H 6250 4175 50  0000 C CNN
+F 2 "" H 6250 4300 50  0001 C CNN
+F 3 "" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4100 6250 4100
+Wire Wire Line
+	6250 4100 6250 4300
+Wire Wire Line
+	6000 4200 6250 4200
+Connection ~ 6250 4200
+$Comp
+L R R203
+U 1 1 5A4109F2
+P 7000 3150
+F 0 "R203" V 7080 3150 50  0000 C CNN
+F 1 "10k" V 7000 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6930 3150 50  0001 C CNN
+F 3 "" H 7000 3150 50  0001 C CNN
+	1    7000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R204
+U 1 1 5A410A1D
+P 7200 3150
+F 0 "R204" V 7280 3150 50  0000 C CNN
+F 1 "10k" V 7200 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7130 3150 50  0001 C CNN
+F 3 "" H 7200 3150 50  0001 C CNN
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3400 6000 3400
+Wire Wire Line
+	7200 3300 7200 3400
+Wire Wire Line
+	6000 3300 7000 3300
+Text HLabel 7400 2900 2    60   Input ~ 0
+VDD
+Wire Wire Line
+	7000 2900 7000 3000
+Connection ~ 7200 2900
+Wire Wire Line
+	7200 2900 7200 3000
+Wire Wire Line
+	7000 2900 7400 2900
+Text HLabel 6600 3200 2    60   Input ~ 0
+SDA
+Wire Wire Line
+	6000 3200 6600 3200
+Text HLabel 6600 3100 2    60   Input ~ 0
+SCL
+Wire Wire Line
+	6000 3100 6600 3100
+$Comp
+L R R201
+U 1 1 5A410F7E
+P 6300 2950
+F 0 "R201" V 6380 2950 50  0000 C CNN
+F 1 "10k" V 6300 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6230 2950 50  0001 C CNN
+F 3 "" H 6300 2950 50  0001 C CNN
+	1    6300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R202
+U 1 1 5A410FB3
+P 6400 3050
+F 0 "R202" V 6480 3050 50  0000 C CNN
+F 1 "10k" V 6400 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6330 3050 50  0001 C CNN
+F 3 "" H 6400 3050 50  0001 C CNN
+	1    6400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2800 6300 2700
+Connection ~ 6300 2700
+Connection ~ 6400 2700
+$Comp
+L GNDD #PWR039
+U 1 1 5A41109D
+P 4100 3950
+F 0 "#PWR039" H 4100 3700 50  0001 C CNN
+F 1 "GNDD" H 4100 3825 50  0000 C CNN
+F 2 "" H 4100 3950 50  0001 C CNN
+F 3 "" H 4100 3950 50  0001 C CNN
+	1    4100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3950 4100 3800
+Wire Wire Line
+	4100 3800 4200 3800
+Wire Wire Line
+	4100 3900 4200 3900
+Connection ~ 4100 3900
+$Comp
+L GNDD #PWR040
+U 1 1 5A41112E
+P 6000 2900
+F 0 "#PWR040" H 6000 2650 50  0001 C CNN
+F 1 "GNDD" H 6000 2775 50  0000 C CNN
+F 2 "" H 6000 2900 50  0001 C CNN
+F 3 "" H 6000 2900 50  0001 C CNN
+	1    6000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C202
+U 1 1 5A411174
+P 6200 3500
+F 0 "C202" H 6225 3600 50  0000 L CNN
+F 1 "0.22uF" H 6225 3400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 3350 50  0001 C CNN
+F 3 "" H 6200 3500 50  0001 C CNN
+	1    6200 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3500 6050 3500
+Wire Wire Line
+	6350 3500 6400 3500
+Wire Wire Line
+	6400 3500 6400 3600
+Wire Wire Line
+	6400 3600 6000 3600
+Text HLabel 3850 3500 0    60   Input ~ 0
+CS_XM
+Wire Wire Line
+	3850 3500 4200 3500
+Text HLabel 3850 3400 0    60   Input ~ 0
+CS_G
+Wire Wire Line
+	3850 3400 4200 3400
+$Comp
+L C C201
+U 1 1 5A41457D
+P 2950 3550
+F 0 "C201" H 2975 3650 50  0000 L CNN
+F 1 "10uF" H 2975 3450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2988 3400 50  0001 C CNN
+F 3 "" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3300 2950 3300
+Wire Wire Line
+	2950 3300 2950 3400
+$Comp
+L GNDD #PWR041
+U 1 1 5A4145F2
+P 2950 3750
+F 0 "#PWR041" H 2950 3500 50  0001 C CNN
+F 1 "GNDD" H 2950 3625 50  0000 C CNN
+F 2 "" H 2950 3750 50  0001 C CNN
+F 3 "" H 2950 3750 50  0001 C CNN
+	1    2950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3750 2950 3700
+Wire Wire Line
+	6300 3100 6300 3100
+Connection ~ 6300 3100
+Connection ~ 6400 3200
+$EndSCHEMATC

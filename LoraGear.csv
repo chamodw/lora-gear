@@ -1,0 +1,35 @@
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Arrow;Field4;Field5;Field6;Field7;Field8;arrow
+1;1;BT301;Battery;device:Battery;molex2:MSBATT;;;;;;;;
+2;6;C101, C102, C104, C105, C107, C201;10uF;device:C;Capacitors_SMD:C_0603_HandSoldering;;;;;;;;
+3;3;C103, C106, C110;1uF;device:C;Capacitors_SMD:C_0603_HandSoldering;;;;;;;;
+4;2;C108, C109;22pf;device:C;Capacitors_SMD:C_0603_HandSoldering;;;;;;;;
+5;1;C202;0.22uF;device:C;Capacitors_SMD:C_0603_HandSoldering;;;;;;;;
+6;1;C301;10uf;device:C;Capacitors_SMD:C_0603_HandSoldering;;;;;;;;
+7;1;C302;0.1uF;device:C;Capacitors_SMD:C_0603_HandSoldering;;;;;;;;
+8;1;D101;MBR120;device:D;Diodes_SMD:D_SOD-123F;;;;;;;;
+9;1;D102;CHARGE;device:LED;LEDs:LED_0805_HandSoldering;;;;;;;;
+10;1;D105;LED;device:LED;LEDs:LED_0805_HandSoldering;;;;;;;;
+11;1;D301;GPS;device:LED;LEDs:LED_0805_HandSoldering;;;;;;;;
+12;1;D302;5817;device:D;Diodes_SMD:D_0805;;;;;;;;
+13;1;J1;Step signal;conn:Conn_01x02;Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm;;;;;;;;
+14;1;J2;I;conn:Conn_01x02;Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm;;;;;;;;
+15;1;J3;Conn_01x01;conn:Conn_01x01;Pin_Headers:Pin_Header_Angled_1x01_Pitch1.00mm;;;;;;;;
+16;1;J101;BAT;conn:Conn_01x02;Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight;;;;;;;;
+17;1;J102;USB_OTG;conn:USB_OTG;Connectors_USB:USB_Micro-B_Molex_47346-0001;;47346-1001;;;;;;
+18;1;J103;Conn_01x02_Male;conn:Conn_01x02_Male;Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm;;;;;;;;
+19;1;J301;U.FL-R-SMT-1(10);U.FL-R-SMT-1_10_:U.FL-R-SMT-1(10);U.FL-R-SMT-1_10_:HRS_U.FL-R-SMT-1(10);U.FL-R-SMT-1(10);;U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle;None;Hirose;Good;0.76 USD;
+20;1;L301;22uH;device:L;Resistors_SMD:R_0603_HandSoldering;;;;;;;;
+21;5;R101, R201, R202, R203, R204;10k;device:R;Resistors_SMD:R_0603_HandSoldering;;;;;;;;
+22;3;R102, R104, R105;100k;device:R;Resistors_SMD:R_0603_HandSoldering;;;;;;;;
+23;3;R103, R301, R303;1k;device:R;Resistors_SMD:R_0603_HandSoldering;;;;;;;;
+24;1;R108;R;device:R;Resistors_SMD:R_0603_HandSoldering;;;;;;;;
+25;1;R302;22R;device:R;Resistors_SMD:R_0603_HandSoldering;;;;;;;;
+26;1;SW101;SW_Push;switches:SW_Push;molex2:tactile;;;;;;;;SKQMBAE010
+27;1;U101;AP2112K-3.3;ap2112k-3:AP2112K-3.3;TO_SOT_Packages_SMD:SOT-23-5_HandSoldering;;;;;;;;
+28;1;U102;MCP73831T-2DCI/OT;MCP73831T-2DCI_OT:MCP73831T-2DCI/OT;TO_SOT_Packages_SMD:SOT-23-5_HandSoldering;SOT-23-5 Microchip;;Good;MCP73831T-2DCI/OT;MCP73831 Series Li-Ion/Li-Pol 15 mA - 500 mA 4.2 V Charge Controller - SOT-23-5;Microchip;0.49 USD;
+29;1;U103;RFM96HCW;RFM96:RFM96HCW;XCVR_RFM95W-868S2:XCVR_RFM95W-868S2;;;;;;;;
+30;1;U104;ATSAMD21G18A-AFT;ATSAMD21G18A-AFT:ATSAMD21G18A-AFT;ATSAMD21G18A-AFT:QFP50P900X900X120-48N;3.40 USD;;ATSAMD21G18A-AFT;MCU 32-Bit SAM D21G ARM Cortex M0+ RISC 256KB Flash 3.3V 48-Pin TQFP T/R;Good;TQFP-48 Microchip;Microchip;
+31;1;U201;LSM9DS0TR;LSM9DS0TR:LSM9DS0TR;LSM9DS0:LGA-24;5.46 USD;;STMicroelectronics;LSM9DS0 Series 3.6 V 3D Accelerometer 3D Gyroscope 3D Magnetometer - LGA-24;LSM9DS0TR;Bad;LGA-24 STMicroelectronics;
+32;1;U301;24AA32A-I/MS;24AA32A-I_MS:24AA32A-I/MS;24AA32A-I_MS:SOP65P490X110-8N;24AA32A-I/MS;;Good;0.40 USD;24AA32A Series 32 Kbit (4K X 8) 5.5 V Surface Mount I2C Serial EEPROM - MSOP-8;Microchip;MSOP-8 Microchip;
+33;1;U302;MOUDLE-GPS-NEO-6M(24P-16X12.2MM);MOUDLE-GPS-NEO-6M_24P-16X12.2MM_:MOUDLE-GPS-NEO-6M(24P-16X12.2MM);MOUDLE-GPS-NEO-6M_24P-16X12.2MM_:GPS24P-SMD-1.1-16X12.2MM;u-blox;;None;None;Unavailable;NEO-6M-GPS;"SMD GPS Module;";
+34;1;Y101;32.768;device:Crystal;molex2:RT321532.7686EXTTR;;;;;;;; RT321532.7686EXTTR 

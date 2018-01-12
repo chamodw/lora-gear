@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# U.FL-R-SMT-1(10)
+#
+DEF U.FL-R-SMT-1(10) J 0 40 Y Y 1 L N
+F0 "J" 150 50 50 H V L BNN
+F1 "U.FL-R-SMT-1(10)" 150 -100 50 H V L BNN
+F2 "HRS_U.FL-R-SMT-1(10)" 0 0 50 H I L BNN
+F3 "U.FL-R-SMT-1(10)" 0 0 50 H I L BNN
+F4 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Hirose" 0 0 50 H I L BNN
+F7 "Good" 0 0 50 H I L BNN
+F8 "0.76 USD" 0 0 50 H I L BNN
+DRAW
+C 0 0 141 0 0 10 N
+P 2 0 0 10 0 -150 0 -350 N
+P 2 0 0 10 0 0 -200 0 N
+C 0 0 50 0 0 0 N
+X GND 1 0 -550 200 U 40 40 0 0 P 
+X GND 3 0 -550 200 U 40 40 0 0 P 
+X SIG 2 -400 0 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

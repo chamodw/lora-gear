@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name 24AA32A-I_MS)(type Legacy)(uri "$(KIPRJMOD)/24AA32A-I_MS.mod")(options "")(descr ""))
+  (lib (name ATSAMD21G18A-AFT)(type Legacy)(uri "$(KIPRJMOD)/ATSAMD21G18A-AFT.mod")(options "")(descr ""))
+  (lib (name MCP73831T-2DCI_OT)(type Legacy)(uri "$(KIPRJMOD)/MCP73831T-2DCI_OT.mod")(options "")(descr ""))
+  (lib (name MOUDLE-GPS-NEO-6M_24P-16X12.2MM_)(type Legacy)(uri "$(KIPRJMOD)/MOUDLE-GPS-NEO-6M_24P-16X12.2MM_.mod")(options "")(descr ""))
+  (lib (name molex2)(type KiCad)(uri "$(KIPRJMOD)/molex")(options "")(descr ""))
+  (lib (name XCVR_RFM95W-868S2)(type Legacy)(uri "$(KIPRJMOD)/XCVR_RFM95W-868S2.mod")(options "")(descr ""))
+  (lib (name U.FL-R-SMT-1_10_)(type Legacy)(uri "$(KIPRJMOD)/U.FL-R-SMT-1_10_.mod")(options "")(descr ""))
+  (lib (name atsamd)(type KiCad)(uri "$(KIPRJMOD)/atsamd.pretty")(options "")(descr ""))
+  (lib (name LSM9DS0)(type Legacy)(uri "$(KIPRJMOD)/LSM9DS0.mod")(options "")(descr ""))
+)
